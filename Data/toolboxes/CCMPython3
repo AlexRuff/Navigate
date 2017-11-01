@@ -1,0 +1,20 @@
+Analyzing toolbox (null)(T:\gist_601\aruff\CrossCountryMobility\toolboxes\Cross Country Mobility Tools.tbx) for use within ArcGISPro:
+WARNING 001683: Found Python 2 to 3 errors: Line 199:     if inputVegetation != types.NoneType and arcpy.Exists(inputVegetation) == True: ->     if inputVegetation != type(None) and arcpy.Exists(inputVegetation) == True:
+Line 223:     if inputSoils != types.NoneType and  arcpy.Exists(inputSoils) == True: ->     if inputSoils != type(None) and  arcpy.Exists(inputSoils) == True:
+Line 246:     if inputSurfaceRoughness != types.NoneType and  arcpy.Exists(inputSurfaceRoughness) == True: ->     if inputSurfaceRoughness != type(None) and  arcpy.Exists(inputSurfaceRoughness) == True:
+Line 282:         raise WrongFactors, ccmFactorList ->         raise WrongFactors(ccmFactorList)
+Line 302: except "WrongFactors", ccmlist: -> except "WrongFactors" as ccmlist:
+Line 305:     print msg ->     print(msg)
+Line 316:     print msgs ->     print(msgs)
+Line 333:     print pymsg + "\n" ->     print(pymsg + "\n")
+Line 334:     print msgs ->     print(msgs) within script tool DismountedCCM_(T:\gist_601\aruff\CrossCountryMobility\toolboxes\Scripts\DismountedCCM.py)
+WARNING 001683: Found Python 2 to 3 errors: Line 139:     vehicleRow = vehicleCursor.next() ->     vehicleRow = next(vehicleCursor)
+Line 229:     if inputVegetation != types.NoneType and arcpy.Exists(inputVegetation) == True: ->     if inputVegetation != type(None) and arcpy.Exists(inputVegetation) == True:
+Line 252:     if inputSoils != types.NoneType and  arcpy.Exists(inputSoils) == True: ->     if inputSoils != type(None) and  arcpy.Exists(inputSoils) == True:
+Line 273:     if inputSurfaceRoughness != types.NoneType and  arcpy.Exists(inputSurfaceRoughness) == True: ->     if inputSurfaceRoughness != type(None) and  arcpy.Exists(inputSurfaceRoughness) == True:
+Line 310:         raise WrongFactors, ccmFactorList ->         raise WrongFactors(ccmFactorList)
+Line 331: except "WrongFactors", ccmlist: -> except "WrongFactors" as ccmlist:
+Line 334:     print msg ->     print(msg)
+Line 345:     print msgs ->     print(msgs)
+Line 362:     print pymsg + "\n" ->     print(pymsg + "\n")
+Line 363:     print msgs ->     print(msgs) within script tool MountedCCM_(T:\gist_601\aruff\CrossCountryMobility\toolboxes\Scripts\MountedCCM.py)
