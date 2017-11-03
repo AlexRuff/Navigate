@@ -1,2 +1,0 @@
-Analyzing Python script T:\gist_601\aruff\CrossCountryMobility\toolboxes\Scripts\DismountedCCMpy3.py for use within ArcGISPro:
-WARNING 001683: Found Python 2 to 3 errors: Line 333:     print(pymsg + "\n") ->     print((pymsg + "\n")) within script T:\gist_601\aruff\CrossCountryMobility\toolboxes\Scripts\DismountedCCMpy3.py
